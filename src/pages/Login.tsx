@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
 import logo from '../assets/logo.png';
-import { Lock, User, AlertCircle, ArrowLeft } from 'lucide-react';
+import { Lock, User, AlertCircle } from 'lucide-react';
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState('');
